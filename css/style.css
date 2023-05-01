@@ -42,3 +42,38 @@ body{
    font-weight: 500;
    background-color: #fff;
 }
+
+/*CONTAINER*/
+.container {
+   
+}
+
+/*CARD*/
+.card {
+}
+.card__hero {
+}
+.card__img {
+}
+.card__title {
+}
+.card__text {
+}
+.card__plan {
+}
+.card__music {
+}
+.card__music-icon {
+}
+.card__plan-info {
+}
+.card__plan-name {
+}
+.card__plan-price {
+}
+.card__plan-link {
+}
+.card__btn {
+}
+.card__calcel-link {
+}
