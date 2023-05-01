@@ -1,8 +1,8 @@
 /*GOOGLE FONTS*/
 @font-face {
    font-family: "Red Hat Display";
-   src: url("RedHatDisplay-Black.woff2") format("woff2"),
-       url("RedHatDisplay-Black.woff") format("woff");
+   src: url("../fonts/RedHatDisplay-Black.woff2") format("woff2"),
+       url("../fonts/RedHatDisplay-Black.woff") format("woff");
    font-weight: 900;
    font-style: normal;
    font-display: swap;
@@ -10,8 +10,8 @@
 
 @font-face {
    font-family: "Red Hat Display";
-   src: url("RedHatDisplay-Bold.woff2") format("woff2"),
-       url("RedHatDisplay-Bold.woff") format("woff");
+   src: url("../fonts/RedHatDisplay-Bold.woff2") format("woff2"),
+       url("../fonts/RedHatDisplay-Bold.woff") format("woff");
    font-weight: bold;
    font-style: normal;
    font-display: swap;
@@ -19,8 +19,8 @@
 
 @font-face {
    font-family: "Red Hat Display";
-   src: url("RedHatDisplay-Medium.woff2") format("woff2"),
-       url("RedHatDisplay-Medium.woff") format("woff");
+   src: url("../fonts/RedHatDisplay-Medium.woff2") format("woff2"),
+       url("../fonts/RedHatDisplay-Medium.woff") format("woff");
    font-weight: 500;
    font-style: normal;
    font-display: swap;
