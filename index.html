@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Order summary card</title>
-
+   <title>Frontend Mentor | Order summary card</title>
+   <!--STYLES-->
+   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <div class="container">
       <div class="card">
          <div class="card__hero">
-            <img src="images/illustration-hero.svg" alt="illustration-hero img" class="card__img">
+            <img src="images/illustration-hero.svg" alt="illustration-hero img" class="card__img" width="450" height="220">
          </div>
          <h1 class="card__title">Order Summary</h1>
          <p class="card__text">
@@ -21,17 +22,19 @@
             device anywhere you like!
          </p>
          <div class="card__plan">
-            <div class="card__music">
-               <img src="images/icon-music.svg" alt="icon-music" class="card__music-icon">
+            <div class="card__plan-inner">
+               <img class="card__music-icon" src="images/icon-music.svg" alt="icon-music" width="48" height="48">
+               <div class="card__plan-info">
+                  <span class="card__plan-name">Annual Plan</span>
+                  <span class="card__plan-price">$59.99/year</span>
+               </div>
+               <a href="#" class="card__plan-link">Change</a>
             </div>
-            <div class="card__plan-info">
-               <span class="card__plan-name">Annual Plan</span>
-               <span class="card__plan-price">$59.99/year</span>
-            </div>
-            <a href="#" class="card__plan-link">Change</a>
          </div>
-         <a href="#" class="card__btn">Proceed to Payment</a>
-         <a href="#" class="card__calcel-link">Cancel Order</a>
+         <div class="card__btns">
+            <a href="#" class="card__btn">Proceed to Payment</a>
+            <a href="#" class="card__calcel-link">Cancel Order</a>
+         </div>
       </div>
    </div>
 </body>
